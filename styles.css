@@ -78,6 +78,22 @@ h1{
     align-items: center;
 }
 
+.attribution{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2%;
+}
+
+a{
+    text-decoration: none;
+    color: navy;
+}
+a:visited{
+    color: blue;
+}
+
 @media screen and (max-width: 375px) {
     .container{
         display: flex;
